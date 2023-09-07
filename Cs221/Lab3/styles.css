@@ -1,0 +1,74 @@
+/* Font family for headings */
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Arial", sans-serif; /* font family is used for the type of font is used */
+    font-size: 24px;  /* Adjust font sizes and line heights */
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+/* colors and Backgrounds */
+body {
+    background-color: #1a6063; /* Light gray */
+}
+header {
+    background-color: #1a6063; /* Dark gray */
+    color: #1a6063; /* Text color for the header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Padding and Margins */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* Presentation and Alignment */
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
