@@ -5,19 +5,19 @@ body {
 
 h1 {
     font-family: "Arial", sans-serif; /* font family is used for the type of font is used */
-    font-size: 24px;  /* Adjust font sizes and line heights */
+    font-size: 42px;  /* Adjust font sizes and line heights */
     line-height: 1.5;
 }
 
 p {
-    font-size: 16px;
+    font-size: 32px;
     line-height: 1.4;
 }
 
 
 /* colors and Backgrounds */
 body {
-    background-color: #1a6063; /* Light gray */
+    background-color: #2a1a63; /* Light gray */
 }
 header {
     background-color: #1a6063; /* Dark gray */
