@@ -1,0 +1,37 @@
+/* Global styles */
+body {
+    background-color: #FEFAEB;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+ 
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #D2B48C;
+    color: #8C3826;
+}
+
+/* h1 styles */
+h1 {
+    line-height: 200%;
+}
+
+/* h2 styles */
+h2 {
+    color: #8C3826;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #D2B48C;
+    font-size: 0.6em;
+    font-style: italic;
+    text-align: center;
+}
