@@ -1,4 +1,4 @@
-/* Font family for headings */
+
 body {
     font-family: Helvetica, sans-serif;
 }
@@ -17,10 +17,10 @@ p {
 
 /* colors and Backgrounds */
 body {
-    background-color: #e5e4ea; /* Light gray */
+    background-color: #e5e4ea; 
 }
 header {
-    background-color: #1a6063; /* Dark gray */
+    background-color: #1a6063; 
     color: #1a6063; /* Text color for the header */
 }
 
