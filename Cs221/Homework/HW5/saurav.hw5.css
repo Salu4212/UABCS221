@@ -1,23 +1,21 @@
-/* Step 3: Reset default margin and padding and use border-box for sizing */
+
 * {
     margin: 0px;
     box-sizing: border-box;
 }
-
-/* Step 4: Style the header, main, and footer elements */
 header {
     position: sticky;
     top: 0;
     background-color: #116da3; /* Unique background color for header */
     border-bottom: 2px solid #000; /* Bottom border for header */
-    /* 1em padding on all sides for header */
+    
 }
 
 main {
     width: 80%;
     margin: 0 auto; /* Center the main content */
     background-color: #27ae60; /* Unique background color for main */
-/* 1em padding on all sides for main */
+
 }
 
 footer {
@@ -25,10 +23,10 @@ footer {
     bottom: 0;
     width: 100%; /* Take up the entire viewport width */
     background-color: #e74c3c; /* Unique background color for footer */
- /* 1em padding on all sides for footer */
+ 
 }
 
-/* Step 5: Additional styles */
+
 p {
     padding: 1em; /* 1em padding on all sides for paragraphs */
 }
