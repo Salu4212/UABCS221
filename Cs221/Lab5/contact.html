@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<nav>
+    <ul>
+        <li>
+            <a style="text-decoration: none;" href="index.html">Home</a>
+        </li>
+        <li>
+            <a style="text-decoration: none;" href="about.html">My Interests</a>
+        </li>
+        <li>
+            <a style="text-decoration: none;" href="contact.html">Contact Me</a>
+        </li>
+    </ul>
+</nav>
+
+<body>
+    <section>
+        <h2 class="h2contact">Contact Me</h2>
+        <form action="process_form.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
