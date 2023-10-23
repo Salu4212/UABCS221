@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saurav.hw8.html</title>
+    <style>
+        body {
+            background-color: #a00e0e;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+    <script>
+        function getGrade() {
+            let grade = parseFloat(prompt("Fill in the student's numerical grade.:"));
+
+            if (isNaN(grade) || grade < 0 || grade > 100) {
+                console.error('Incorrect grade entered. Please enter a value from 0 to 100.');
+                return;
+            }
+
+            return grade;
+        }
+
+        function calculateLetterGrade(grade) {
+            let letterGrade;
+            if (grade >= 90 && grade <= 100) letterGrade = 'A';
+            else if (grade >= 80 && grade < 90) letterGrade = 'B';
+            else if (grade >= 70 && grade < 80) letterGrade = 'C';
+            else if (grade >= 60 && grade < 70) letterGrade = 'D';
+            else letterGrade = 'F';
+
+            return letterGrade;
+        }
+
+        function getReward(letterGrade) {
+            let treat;
+            switch (letterGrade) {
+                case 'A':
+                    treat = 'Candy';
+                    break;
+                case 'B':
+                    treat = 'Apple';
+                    break;
+                case 'C':
+                    treat = 'Mint';
+                    break;
+                case 'D':
+                    treat = 'Pencil';
+                    break;
+                case 'F':
+                    treat = 'Awkward conversation with parents';
+                    break;
+            }
+
+            return treat;
+        }
+
+        function rewardStudent() {
+            let grade = getGrade();
+            let letterGrade = calculateLetterGrade(grade);
+            let treat = getReward(letterGrade);
+
+            console.log(`Grade: ${grade}`);
+            console.log(`Letter Grade: ${letterGrade}`);
+            console.log(`Reward: ${treat}`);
+        }
+    </script>
+</head>
+
+<body onload="rewardStudent()">
+</body>
+
+</html>
