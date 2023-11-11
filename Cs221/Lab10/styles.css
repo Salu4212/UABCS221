@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    background-color: #dddae3;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.game {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #090808;
+    border-radius: 10px;
+    background-color: #010000;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Prompt -- how to add icons for Rock, Paper and Secissors in css
+I have also used this website to add icons https://www.w3schools.com/icons/fontawesome5_icons_writing.asp */
+button#rock::before {
+    content: "\f255"; /* Font Awesome icon for rock */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+button#rock {
+    background-color: #FF5733;
+}
+
+button#paper::before {
+    content: "\f256"; /* Font Awesome icon for paper */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+button#paper {
+    background-color: #3498db;
+}
+
+button#scissors::before {
+    content: "\2704"; /* Font Awesome icon for scissors */
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+button#scissors {
+    background-color: #27ae60;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+}
